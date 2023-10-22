@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 50b870f2-92c0-4db3-8c14-75227c8707ac
+      url: 'https://jocular-beignet-d5d2b1.netlify.app'
