@@ -139,27 +139,38 @@ ul.task-list li input[type="checkbox"] {
 <style>
 #logo-row {
     display: flex;
-    justify-content: center;  /* This will distribute the logos with equal space around them */
-    align-items: center;  /* This will vertically align the logos */
+    flex-wrap: wrap;  /* This will allow the logos to wrap to the next line on smaller screens */
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    background-color: #ffffff;  /* Optional: background color for the logo row */
+    background-color: #ffffff;
 }
 
 #logo-row img {
-    width: 100px;  /* Adjust as necessary for your logos */
-    height: auto;  /* Maintains aspect ratio */
-    margin-right: 20px;
-}
-#logo-row img:nth-child(3) {
-    width: 170px;  /* Set to your desired width */
-    height: auto;  /* Set to your desired height */
+    max-width: 100px;
+    height: auto;
+    margin: 10px;  /* This will add space around each logo */
 }
 
+#logo-row img:nth-child(3) {
+    max-width: 170px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    #logo-row img {
+        max-width: 80px;  /* You can adjust this value to suit your design on mobile */
+    }
+    #logo-row img:nth-child(3) {
+        max-width: 150px;
+    }
+}
 </style>
 <div id="logo-row">
     <img src="pics/tongji.png" alt="Logo 1">
     <img src="pics/njuenv.png" alt="Logo 2">
     <img src="pics/duke.png" alt="Logo 3">
+    <img src="pics/tsinghua.png" alt="Logo 3">
 </div>
 
 
