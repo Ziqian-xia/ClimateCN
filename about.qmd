@@ -23,7 +23,7 @@ about:
 
 ::: {.column width="60%"}
 
-Ziqian Xia is the driving force behind this groundbreaking project. With a rich academic background that spans Economic Statistics, Psychology, and Environmental Policy, Ziqian's research interests lie at the intersection of human behavior, technology, and environmental conservation. Ziqian's journey has been marked by a passionate pursuit of understanding the human dimension of climate change.
+Ziqian Xia is a graduate student at Tongji University, China. Ziqian's research interests lie at the intersection of human behavior, technology, and environmental conservation. Ziqian's journey has been marked by a passionate pursuit of understanding the human dimension of climate change. Ziqian's  contributions to a myriad of publications, including *Nature Reviews Psychology*, *Journal of Cleaner Production*, *Environmental Research Letters*, and *Resources, Conservation and Recycling*.
 
 Contact: [ziqian.research@gmail.com](mailto:ziqian.research@gmail.com)
 :::

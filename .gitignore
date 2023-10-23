@@ -14,3 +14,4 @@
 # Ignore other temporary and cache files
 .cache/
 _temp/
+/.quarto/
