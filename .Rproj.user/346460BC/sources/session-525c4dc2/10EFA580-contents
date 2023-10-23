@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "China Climate Communication Initiative"
+
+  page-footer:
+    left: "&copy; Copyright 2022"
+    right: "We operate **independently**, without any external funding, ensuring unbiased and genuine insights."
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        
+      - href: maps/index.qmd
+        text: Climate Change Perception Map  
+        
+      - href: images/index.qmd
+        text: Mental Images of Climate Change       
+        
+      - href: projects/index.qmd
+        text: Projects
+
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

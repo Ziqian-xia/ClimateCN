@@ -1,0 +1,101 @@
+---
+title: "China Climate Change Perception Maps"
+about:
+  template: marquee
+  image: lake.jpg
+---
+
+## High-Resolution Map of Climate Change Perception in China
+
+In our [recent study](https://www.researchsquare.com/article/rs-3130454/v1), we embarked on a comprehensive exploration of the evolving public perceptions of climate change in China, spanning provincial to prefecture-city levels. Drawing from two national surveys conducted in 2010 and 2023, we were able to capture the perception of a combined total of 15,833 respondents. Our primary tools for measurement were two pivotal questions that gauged climate change issue priority and risk perception:
+
+- “Is climate change the most urgent environmental problem in China?” (Termed as **'Perceived Priority'**)
+- “Will climate change have the greatest impact on you and your families compared to other environmental issues?” (Termed as **'Perceived Impact'**).
+
+### Perceived Priority of Climate Change
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(leaflet)
+library(sf)
+library(htmltools)
+library(htmlwidgets)
+load("ppfull.RData")
+ppfull
+
+```
+
+<br>
+
+Across the board, there's a noticeable uptick in the perceived priority of climate change in China. The national average surged from a modest **5.91%** in 2010 to a more substantial **23.4%** in 2023. This growth wasn't uniform, with 2010 figures ranging from 4.4% in *Beijing* to 11.5% in *Yunnan*. By 2023, this span had expanded, with *Guangdong* at the lower end with 16.9% and *Liaoning* leading at 40.1%.
+
+### Perceived Impact of Climate Change
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(leaflet)
+library(sf)
+library(htmltools)
+library(htmlwidgets)
+load("pifull.RData")
+pifull
+
+```
+
+<br>
+
+While the perceived impact of climate change in China is comparatively lower, it has still seen a significant rise over the past decade. The national average climbed from **4.04%** in **2010** to **15.6%** in **2023**. In 2010, the range of people who believed climate change would have the most significant impacts was between 2.4% in *Beijing* to 8.4% in *Yunnan*. By 2023, these figures had grown, ranging from 12.9% in *Shandong* to 22.9% in *Heilongjiang*. This growth can be attributed to factors such as increased media coverage, personal experiences with climate change effects, and intensified policy efforts both domestically and internationally.
+
+::: {.callout-important}
+## Misalignment Between Potential Risk and Perceived Impact
+Our study highlighted that the growth in climate change perceptions wasn't uniform across provinces. The variations in perceptions across provinces intensified from 2010 to 2023, suggesting that the evolution of climate change perceptions has been distinct across China's diverse regions. This disparity may exacerbate the unequal distribution of climate change impacts, as individuals in regions with higher perceived risk might be more inclined to adopt adaptation and mitigation strategies, while those in areas with lower perceived risk may be less likely to take action
+:::
+
+
+
+::: {.callout-important collapse="true"}
+### Map of risk-perception ratio in China
+
+(A) The provincial map visualizes the relationship between perceived impact of climate change and exposure to extreme weather events, illustrating the spatial distribution of climate risk across China. The extreme weather events are defined based on the 98th percentile of historical daily mean temperatures for each province from 1980-2020. (B) The city-level map represents a finer scale down of the risk-perception ratio, highlighting the discrepancies between perceived risk and actual exposure to extreme weather events. The risk-perception ratio is computed by dividing the perceived impact of climate change on families by the exposure to extreme events.
+
+![Risk-Perception Map](riskmap.png)
+
+:::
+
+## City-Scale Analysis of Perceived Priority and Perceived Impact
+
+Diving deeper into the granularity of our study, we extended our analysis to the prefecture-city level, offering a more detailed and localized perspective on climate change perceptions.
+
+### City-Scale Perceived Priority of Climate Change
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(leaflet)
+library(sf)
+library(htmltools)
+library(htmlwidgets)
+load("cpp2023.RData")
+cpp2023
+
+```
+
+
+### City-Scale Perceived Impact of Climate Change
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(leaflet)
+library(sf)
+library(htmltools)
+library(htmlwidgets)
+load("cpp2023.RData")
+cpp2023
+
+```
+
+
+::: {.callout-note}
+At the city level, the variations in perceived priority become even more pronounced. While some cities showcased a rapid increase in the priority given to climate change, others lagged behind, reflecting the diverse socio-economic and environmental contexts. 
+:::
+
+

@@ -1,0 +1,58 @@
+---
+title: "About"
+about:
+  template: marquee
+  image: cloudy.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+## Meet the team
+
+
+### [Ziqian Xia](https://ziqian-xia.tech/)
+:::: {.columns}
+
+::: {.column width="40%"}
+![](pics/avatar.jpg){width=150}
+:::
+
+::: {.column width="60%"}
+
+Ziqian Xia is a graduate student at Tongji University, China. Ziqian's research interests lie at the intersection of human behavior, technology, and environmental conservation. Ziqian's journey has been marked by a passionate pursuit of understanding the human dimension of climate change. Ziqian's  contributions to a myriad of publications, including *Nature Reviews Psychology*, *Journal of Cleaner Production*, *Environmental Research Letters*, and *Resources, Conservation and Recycling*.
+
+Contact: [ziqian.research@gmail.com](mailto:ziqian.research@gmail.com)
+:::
+
+::::
+
+
+### Jinquan Ye
+:::: {.columns}
+
+::: {.column width="40%"}
+![](pics/yjq.jpeg){width=150}
+:::
+
+::: {.column width="60%"}
+
+Jinquan Ye brings a wealth of knowledge and experience to the team. As a co-author, Jinquan's insights and expertise have been instrumental in shaping the research direction and ensuring its rigor. With a keen eye for detail and a deep understanding of the subject matter, Jinquan has been a pivotal figure in the project's success.
+
+Contact: [jinquan.ye@email.com](mailto:jinquan.ye@email.com)
+:::
+
+::::
+
+
+
+
+
+### Jianxun Yang
+
+Jianxun Yang is the team's data maestro. With a knack for diving deep into datasets and extracting meaningful insights, Jianxun's role as a data analyst and co-author has been crucial. His analytical prowess ensures that the research is backed by robust data, making the findings both compelling and credible.
+
+

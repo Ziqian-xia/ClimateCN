@@ -8,7 +8,7 @@ subtitle: "Here is an overview of the project we have been working on."
 Our research presents a high-resolution map that showcases the regional disparities in climate change perception across China. This map, the first of its kind, offers a detailed view of how climate change concerns vary from one province to another, and even from one city to the next.
 
 
-## [Mental Images of Climate Change Awareness in China](/mentalimages)
+## [Mental Images of Climate Change Awareness in China](/images)
 
 Previous studies suggest optimistically high climate change awareness in China, theworld's largest carbon emitter Yet it is unknown how the discourse is interpreted byindividual's own frame, due to largely adopted Yes-No survey design. This study, for thefirst time, performed a nationwide open-ended survey covering 4,037 respondents,identifies seven distinct mental images that exclusively represent Chinese residents'conceptualization of climate change, including global warming, distant icons, naturaldisasters, environmental degradation, cause, solution, and weather. 
 
