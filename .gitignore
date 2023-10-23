@@ -1,0 +1,16 @@
+# Ignore R Data files
+*.RData
+
+# Ignore R Project files
+*.Rproj
+
+# Ignore Temporary files
+*~
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# Ignore other temporary and cache files
+.cache/
+_temp/

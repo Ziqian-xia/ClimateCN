@@ -10,5 +10,11 @@
   },
   "maps/index.qmd": {
     "index.html": "8c799636"
+  },
+  "maps/index.knit.md": {
+    "index.knit.html": "cf45009a"
+  },
+  "images/index.qmd": {
+    "index.html": "76ddbe54"
   }
 }
