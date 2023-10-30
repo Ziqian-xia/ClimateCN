@@ -170,7 +170,7 @@ palette <- colorBin(palette = colorRampPalette(c("#ffffff","#de2d26"))(num_color
 
 
 create_label0 <- function(data) {
-  label <- paste0("<strong>Province: </strong>", data$name,
+  label <- paste0("<strong>City: </strong>", data$name,
                   "<br><strong>Percentage: </strong>", round(data$mrp * 100, 2), "%")
   return(label)
 }
@@ -185,7 +185,7 @@ cpi2023<-leaflet(mapdata2_simplified) %>%
               label = ~paste0(round(mrp * 100, 2), "%"),
               highlightOptions = highlightOptions(color = "white", weight = 2,
                                                   bringToFront = TRUE),
-              popup = ~create_label0(mapdata2)) %>%
+              popup = ~create_label0(mapdata2_simplified)) %>%
   addLegend(pal = palette,
             values = ~mrp * 100,
             title = "Perceived Impact (%)",
@@ -225,7 +225,7 @@ palette <- colorBin(palette = colorRampPalette(c("#ffffff","#076585"))(num_color
 
 
 create_label0 <- function(data) {
-  label <- paste0("<strong>Province: </strong>", data$name,
+  label <- paste0("<strong>City: </strong>", data$name,
                   "<br><strong>Percentage: </strong>", round(data$mrp * 100, 2), "%")
   return(label)
 }
@@ -240,7 +240,7 @@ cpp2023<-leaflet(mapdata1_simplified) %>%
               label = ~paste0(round(mrp * 100, 2), "%"),
               highlightOptions = highlightOptions(color = "white", weight = 2,
                                                   bringToFront = TRUE),
-              popup = ~create_label0(mapdata2)) %>%
+              popup = ~create_label0(mapdata1_simplified)) %>%
   addLegend(pal = palette,
             values = ~mrp * 100,
             title = "Perceived Priority (%)",
@@ -250,3 +250,7 @@ cpp2023<-leaflet(mapdata1_simplified) %>%
     html = "<div style='font-size:18px; font-weight:bold;'>Perceived Priority of Climate Change (city-level)</div>",
     position = "bottomleft"
   )
+
+
+save(cpp2023, file = "cpp2023.RData")
+save(cpi2023, file = "cpi2023.RData")
